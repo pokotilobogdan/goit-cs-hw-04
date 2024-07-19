@@ -1,6 +1,7 @@
 ﻿from pathlib import Path
 from threading import Thread
 from pprint import pprint
+import sys
 
 
 result_dict = {}
@@ -25,10 +26,14 @@ def search_in_file(path: Path, string: str) -> bool:
     Returns True if there is '<string>' in the file, which path is used as the argument.
     Otherwise returns False
     '''
-    with open(path, 'r') as fh:
-        text = fh.read()
-        if text.find(string) != -1:
-            return True
+    try:
+        with open(path, 'r') as fh:
+            text = fh.read()
+            if text.find(string) != -1:
+                return True
+            return False
+    except PermissionError:
+        print(f"Permission to file {path} is denied")
         return False
     
 
@@ -99,14 +104,18 @@ def search_with_threads(path: Path, number_of_threads: int, words_to_search: lis
 
 if __name__ == '__main__':
     path = Path('./files_to_analyze')
+
+    try:
+        if not path.exists():
+            raise FileNotFoundError
+    except FileNotFoundError:
+        print("There is no such file o directory:", path)
+        sys.exit()
+    
+
     NUMBER_OF_THREADS = 7
     words_to_search = ['some', 'know', 'get', 'too', 'extra']
     
     result = search_with_threads(path, NUMBER_OF_THREADS, words_to_search)
 
     pprint(result)
-    
-    print(split_equally(25, 25))
-    print(split_equally(25, 7))
-    print(split_equally(7, 25))
-    print(split_equally(13, 4))

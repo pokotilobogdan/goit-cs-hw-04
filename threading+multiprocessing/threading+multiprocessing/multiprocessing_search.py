@@ -28,6 +28,7 @@ def split_on_processes(file_list: list, number_of_processes: int, func, args):
 
     [p.join() for p in processes]
 
+    # Запевнились, що всі процеси завершені, і починаємо "розгружати" чергу з отриманих результатів
     while queue_out_process.empty() is False:
         dict_to_add = queue_out_process.get()
         
@@ -81,6 +82,15 @@ def function_for_process(queue_in: Queue, queue_out: Queue, word):
 if __name__ == '__main__':
     
     path = Path('./files_to_analyze')
+
+    try:
+        if not path.exists():
+            raise FileNotFoundError
+    except FileNotFoundError:
+        print("There is no such file o directory:", path)
+        sys.exit()
+        
+
     NUMBER_OF_PROCESSES = 7
     words_to_search = ['some', 'know', 'get', 'too', 'extra']
 

@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\prost\\OneDrive\\Desktop\\GoIT\\Module4_cs\\Lektion7-8\\homework\\threading\u002Bmultiprocessing\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B3C37B91-106F-4828-BDD3-5AC1D098A55B}|threading\u002Bmultiprocessing\\threading\u002Bmultiprocessing.pyproj|C:\\Users\\prost\\OneDrive\\Desktop\\GoIT\\Module4_cs\\Lektion7-8\\homework\\threading\u002Bmultiprocessing\\threading\u002Bmultiprocessing\\multiprocessing_search.py||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{B3C37B91-106F-4828-BDD3-5AC1D098A55B}|threading\u002Bmultiprocessing\\threading\u002Bmultiprocessing.pyproj|solutionrelative:threading\u002Bmultiprocessing\\multiprocessing_search.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{B3C37B91-106F-4828-BDD3-5AC1D098A55B}|threading\u002Bmultiprocessing\\threading\u002Bmultiprocessing.pyproj|C:\\Users\\prost\\OneDrive\\Desktop\\GoIT\\Module4_cs\\Lektion7-8\\homework\\threading\u002Bmultiprocessing\\threading\u002Bmultiprocessing\\threading_search.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{B3C37B91-106F-4828-BDD3-5AC1D098A55B}|threading\u002Bmultiprocessing\\threading\u002Bmultiprocessing.pyproj|solutionrelative:threading\u002Bmultiprocessing\\threading_search.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B3C37B91-106F-4828-BDD3-5AC1D098A55B}|threading\u002Bmultiprocessing\\threading\u002Bmultiprocessing.pyproj|C:\\Users\\prost\\OneDrive\\Desktop\\GoIT\\Module4_cs\\Lektion7-8\\homework\\threading\u002Bmultiprocessing\\threading\u002Bmultiprocessing\\main.py||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{B3C37B91-106F-4828-BDD3-5AC1D098A55B}|threading\u002Bmultiprocessing\\threading\u002Bmultiprocessing.pyproj|solutionrelative:threading\u002Bmultiprocessing\\main.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3C37B91-106F-4828-BDD3-5AC1D098A55B}|threading\u002Bmultiprocessing\\threading\u002Bmultiprocessing.pyproj|C:\\Users\\prost\\OneDrive\\Desktop\\GoIT\\Module4_cs\\Lektion7-8\\homework\\threading\u002Bmultiprocessing\\threading\u002Bmultiprocessing\\threading_search.py||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{B3C37B91-106F-4828-BDD3-5AC1D098A55B}|threading\u002Bmultiprocessing\\threading\u002Bmultiprocessing.pyproj|solutionrelative:threading\u002Bmultiprocessing\\threading_search.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{B3C37B91-106F-4828-BDD3-5AC1D098A55B}|threading\u002Bmultiprocessing\\threading\u002Bmultiprocessing.pyproj|C:\\Users\\prost\\OneDrive\\Desktop\\GoIT\\Module4_cs\\Lektion7-8\\homework\\threading\u002Bmultiprocessing\\threading\u002Bmultiprocessing\\multiprocessing_search.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{B3C37B91-106F-4828-BDD3-5AC1D098A55B}|threading\u002Bmultiprocessing\\threading\u002Bmultiprocessing.pyproj|solutionrelative:threading\u002Bmultiprocessing\\multiprocessing_search.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
@@ -32,10 +32,23 @@
               "RelativeDocumentMoniker": "threading\u002Bmultiprocessing\\main.py",
               "ToolTip": "C:\\Users\\prost\\OneDrive\\Desktop\\GoIT\\Module4_cs\\Lektion7-8\\homework\\threading\u002Bmultiprocessing\\threading\u002Bmultiprocessing\\main.py",
               "RelativeToolTip": "threading\u002Bmultiprocessing\\main.py",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAAAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABYAAAAAAAAA",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEVSURBVDhPrZOhboRAEIaHhqQIJAKJQCAQCB4AXR4EiUAgkUhwGCSCF2h4AAwOCQkCiUQgqGgy3Z2Uy3FHL\u002Blxf/Jnl5n8HzsbEL6/PhCelPj\u002BCfALeMo8\u002B8Y2p7QDjONIrusafN\u002BnmiiK4LouVFUFXddBlmWgKAr1uHYATdOgLEvo\u002Bx7SNAXHcSCOYyiKApqmgTzPwbZtgl50fQdcLISGYeC6ruh5Hs7zjEmS7GbfTNlbwDRNuCwLrZIk0RqG4S64\u002BRAQBAGdgh2TamwEHIYBLctCXdcxiiKUZflvALuHyzO3qqrYti31uDiMg3jvDsDD25tvbZom\u002Bbp2B/ivefa1HxIb8dCPtAMIgnDoRzo9wqnfGQDgB6iaAPhrbB0nAAAAAElFTkSuQmCC",
               "WhenOpened": "2024-07-11T09:59:47.022Z",
               "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "threading_search.py",
+              "DocumentMoniker": "C:\\Users\\prost\\OneDrive\\Desktop\\GoIT\\Module4_cs\\Lektion7-8\\homework\\threading\u002Bmultiprocessing\\threading\u002Bmultiprocessing\\threading_search.py",
+              "RelativeDocumentMoniker": "threading\u002Bmultiprocessing\\threading_search.py",
+              "ToolTip": "C:\\Users\\prost\\OneDrive\\Desktop\\GoIT\\Module4_cs\\Lektion7-8\\homework\\threading\u002Bmultiprocessing\\threading\u002Bmultiprocessing\\threading_search.py",
+              "RelativeToolTip": "threading\u002Bmultiprocessing\\threading_search.py",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEVSURBVDhPrZOhboRAEIaHhqQIJAKJQCAQCB4AXR4EiUAgkUhwGCSCF2h4AAwOCQkCiUQgqGgy3Z2Uy3FHL\u002Blxf/Jnl5n8HzsbEL6/PhCelPj\u002BCfALeMo8\u002B8Y2p7QDjONIrusafN\u002BnmiiK4LouVFUFXddBlmWgKAr1uHYATdOgLEvo\u002Bx7SNAXHcSCOYyiKApqmgTzPwbZtgl50fQdcLISGYeC6ruh5Hs7zjEmS7GbfTNlbwDRNuCwLrZIk0RqG4S64\u002BRAQBAGdgh2TamwEHIYBLctCXdcxiiKUZflvALuHyzO3qqrYti31uDiMg3jvDsDD25tvbZom\u002Bbp2B/ivefa1HxIb8dCPtAMIgnDoRzo9wqnfGQDgB6iaAPhrbB0nAAAAAElFTkSuQmCC",
+              "WhenOpened": "2024-07-19T13:03:07.906Z",
               "EditorCaption": ""
             },
             {
@@ -57,25 +70,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "threading_search.py",
-              "DocumentMoniker": "C:\\Users\\prost\\OneDrive\\Desktop\\GoIT\\Module4_cs\\Lektion7-8\\homework\\threading\u002Bmultiprocessing\\threading\u002Bmultiprocessing\\threading_search.py",
-              "RelativeDocumentMoniker": "threading\u002Bmultiprocessing\\threading_search.py",
-              "ToolTip": "C:\\Users\\prost\\OneDrive\\Desktop\\GoIT\\Module4_cs\\Lektion7-8\\homework\\threading\u002Bmultiprocessing\\threading\u002Bmultiprocessing\\threading_search.py",
-              "RelativeToolTip": "threading\u002Bmultiprocessing\\threading_search.py",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAtwC0AAAAAAAAA",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEVSURBVDhPrZOhboRAEIaHhqQIJAKJQCAQCB4AXR4EiUAgkUhwGCSCF2h4AAwOCQkCiUQgqGgy3Z2Uy3FHL\u002Blxf/Jnl5n8HzsbEL6/PhCelPj\u002BCfALeMo8\u002B8Y2p7QDjONIrusafN\u002BnmiiK4LouVFUFXddBlmWgKAr1uHYATdOgLEvo\u002Bx7SNAXHcSCOYyiKApqmgTzPwbZtgl50fQdcLISGYeC6ruh5Hs7zjEmS7GbfTNlbwDRNuCwLrZIk0RqG4S64\u002BRAQBAGdgh2TamwEHIYBLctCXdcxiiKUZflvALuHyzO3qqrYti31uDiMg3jvDsDD25tvbZom\u002Bbp2B/ivefa1HxIb8dCPtAMIgnDoRzo9wqnfGQDgB6iaAPhrbB0nAAAAAElFTkSuQmCC",
-              "WhenOpened": "2024-07-11T10:21:51.103Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "multiprocessing_search.py",
               "DocumentMoniker": "C:\\Users\\prost\\OneDrive\\Desktop\\GoIT\\Module4_cs\\Lektion7-8\\homework\\threading\u002Bmultiprocessing\\threading\u002Bmultiprocessing\\multiprocessing_search.py",
               "RelativeDocumentMoniker": "threading\u002Bmultiprocessing\\multiprocessing_search.py",
               "ToolTip": "C:\\Users\\prost\\OneDrive\\Desktop\\GoIT\\Module4_cs\\Lektion7-8\\homework\\threading\u002Bmultiprocessing\\threading\u002Bmultiprocessing\\multiprocessing_search.py",
               "RelativeToolTip": "threading\u002Bmultiprocessing\\multiprocessing_search.py",
-              "ViewState": "AQIAACcAAAAAAAAAAAAAADAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAABjAAAA",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEVSURBVDhPrZOhboRAEIaHhqQIJAKJQCAQCB4AXR4EiUAgkUhwGCSCF2h4AAwOCQkCiUQgqGgy3Z2Uy3FHL\u002Blxf/Jnl5n8HzsbEL6/PhCelPj\u002BCfALeMo8\u002B8Y2p7QDjONIrusafN\u002BnmiiK4LouVFUFXddBlmWgKAr1uHYATdOgLEvo\u002Bx7SNAXHcSCOYyiKApqmgTzPwbZtgl50fQdcLISGYeC6ruh5Hs7zjEmS7GbfTNlbwDRNuCwLrZIk0RqG4S64\u002BRAQBAGdgh2TamwEHIYBLctCXdcxiiKUZflvALuHyzO3qqrYti31uDiMg3jvDsDD25tvbZom\u002Bbp2B/ivefa1HxIb8dCPtAMIgnDoRzo9wqnfGQDgB6iaAPhrbB0nAAAAAElFTkSuQmCC",
               "WhenOpened": "2024-07-16T17:19:14.578Z",
               "EditorCaption": ""

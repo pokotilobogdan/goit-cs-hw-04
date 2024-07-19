@@ -5,9 +5,22 @@ from threading_search import search_with_threads
 from multiprocessing_search import search_with_processes
 from timeit import timeit
 from colorama import Fore
+import sys
+
 
 if __name__ == "__main__":
+    
     path = Path('./files_to_analyze')
+
+    try:
+        if not path.exists():
+            raise FileNotFoundError
+    except FileNotFoundError:
+        print("There is no such file o directory:", path)
+        sys.exit()
+    
+    # Якщо доробити програму, то можна буде щоразу генерувати нові файли наступними двома рядками:
+
     # NUMBER_OF_FILES = 25
     # create_files(path, NUMBER_OF_FILES)
 
